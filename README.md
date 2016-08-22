@@ -7,6 +7,7 @@ Tested on:
 Learn360
 NFB Campus
 CBC Curio
+Tumblebooks
 
 To use: 
 

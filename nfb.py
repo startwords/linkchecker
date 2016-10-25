@@ -11,7 +11,7 @@ for url in urls:
 	soup = BeautifulSoup(r.text)
 
 
-	if soup.find_all(text = re.compile("Access your rentals without")): 
+	if soup.find_all("a", class_= "campus-label"): 
  		print str(count) +  " of " + str(num_lines) + " | " + "Nope!" + " | " + url[1] + " | " + url[0]
 		outurls.writerow([url[0], url[1], "Nope!"])  
 		count += 1
